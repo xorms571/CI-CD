@@ -33,6 +33,6 @@
     "**/*.tsx",
     "types.d.ts",
     ".next/types/**/*.ts"
-  ],
+, "app/components/LoginForm.jsx"  ],
   "exclude": ["node_modules"]
 }
