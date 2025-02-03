@@ -1,11 +1,18 @@
 {
   "compilerOptions": {
+<<<<<<< HEAD
     "target": "es5",
+=======
+    "target": "ES2017",
+>>>>>>> fe681b8227a8f3c57a531c3a6eb462c20e1929de
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
+<<<<<<< HEAD
     "forceConsistentCasingInFileNames": true,
+=======
+>>>>>>> fe681b8227a8f3c57a531c3a6eb462c20e1929de
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
@@ -14,6 +21,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+<<<<<<< HEAD
     "baseUrl": ".",
     "types": ["@testing-library/jest-dom"],
     "paths": {
@@ -21,10 +29,13 @@
       "@/pages/*": ["pages/*"],
       "@/styles/*": ["styles/*"]
     },
+=======
+>>>>>>> fe681b8227a8f3c57a531c3a6eb462c20e1929de
     "plugins": [
       {
         "name": "next"
       }
+<<<<<<< HEAD
     ]
   },
   "include": [
@@ -34,5 +45,13 @@
     "types.d.ts",
     ".next/types/**/*.ts"
 , "app/components/LoginForm.jsx"  ],
+=======
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+>>>>>>> fe681b8227a8f3c57a531c3a6eb462c20e1929de
   "exclude": ["node_modules"]
 }
