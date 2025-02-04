@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@nextui-org/input": "^2.4.8",
+    "@vercel/speed-insights": "^1.1.0",
     "axios": "^1.7.9",
     "next": "latest",
     "react": "^18.2.0",

@@ -1,3 +1,4 @@
+import React from 'react';
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Image from "next/image";
 
