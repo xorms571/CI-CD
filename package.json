@@ -1,23 +1,13 @@
 {
-<<<<<<< HEAD
-=======
-  "name": "cicd",
-  "version": "0.1.0",
->>>>>>> fe681b8227a8f3c57a531c3a6eb462c20e1929de
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-<<<<<<< HEAD
-=======
-    "lint": "next lint",
->>>>>>> fe681b8227a8f3c57a531c3a6eb462c20e1929de
     "test": "jest --watch",
     "test:ci": "jest --ci"
   },
   "dependencies": {
-<<<<<<< HEAD
     "@nextui-org/input": "^2.4.8",
     "axios": "^1.7.9",
     "next": "latest",
@@ -42,30 +32,5 @@
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
     "typescript": "5.3.3"
-=======
-    "@vercel/speed-insights": "^1.1.0",
-    "next": "15.1.6",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "ts-node": "^10.9.2"
-  },
-  "devDependencies": {
-    "@eslint/eslintrc": "^3",
-    "@testing-library/dom": "^10.4.0",
-    "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/react": "^16.2.0",
-    "@types/jest": "^29.5.14",
-    "@types/node": "^20",
-    "@types/react": "^19.0.8",
-    "@types/react-dom": "^19.0.3",
-    "eslint": "^9",
-    "eslint-config-next": "15.1.6",
-    "jest": "^29.7.0",
-    "jest-environment-jsdom": "^29.7.0",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "ts-jest": "^29.2.5",
-    "typescript": "^5"
->>>>>>> fe681b8227a8f3c57a531c3a6eb462c20e1929de
   }
 }
